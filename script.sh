@@ -11,4 +11,5 @@ gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
 gsettings set org.gnome.desktop.interface icon-theme 'macOs-icon-theme'
 gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
 gsettings set org.gnome.shell.extensions.user-theme name "Nordic"
-gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'firefox.desktop', 'com.visualstudio.code.desktop']"
+gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'firefox.desktop', 'com.visualstudio.code.desktop']"
+gsettings get org.gnome.desktop.background picture-uri "42.png"
