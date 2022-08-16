@@ -1,4 +1,7 @@
 xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9"
+cd script_ubuntu
+CWD=$(pwd)
+gsettings set org.gnome.desktop.background picture-uri file:///$CWD/42.png
 cd
 mkdir ./.themes
 cd ./.themes
@@ -12,9 +15,3 @@ gsettings set org.gnome.desktop.interface icon-theme 'macOs-icon-theme'
 gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
 gsettings set org.gnome.shell.extensions.user-theme name "Nordic"
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'firefox.desktop', 'com.visualstudio.code.desktop']"
-gsettings set org.gnome.desktop.background picture-uri file:///nfs/homes/anfreire/script_ubuntu/42.png
-cd
-echo "setxkbmap pt" >> ~/.bashrc
-echo "setxkbmap pt" >> ~/.zshrc
-source ~/.bashrc
-source ~/.zshrc
