@@ -7,3 +7,7 @@
 ### Favourites Apps are added to the Dock.
 
 ### Launches Improved Intra 42 - Firefox Extension Installation
+
+-------------
+
+#### "2> /dev/null" -> This command redirects the error output to NULL (Silences all stderr output)
