@@ -15,3 +15,4 @@ gsettings set org.gnome.desktop.interface icon-theme 'macOs-icon-theme'
 gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
 gsettings set org.gnome.shell.extensions.user-theme name "Nordic"
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'firefox.desktop', 'com.visualstudio.code.desktop']"
+xdg-open https://github.com/FreekBes/improved_intra/releases/latest/download/firefox.xpi
