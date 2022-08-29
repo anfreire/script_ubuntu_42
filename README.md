@@ -10,4 +10,4 @@
 
 -------------
 
-#### "2> /dev/null" -> This command redirects the error output to NULL (Silences all stderr output)
+#### " 2> /dev/null " -> This command redirects the error output to NULL (Silences all stderr output)
