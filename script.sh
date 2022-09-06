@@ -24,3 +24,4 @@ gsettings set org.gnome.desktop.wm.preferences theme "Nordic" 2> /dev/null
 gsettings set org.gnome.shell.extensions.user-theme name "Nordic" 2> /dev/null
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'firefox.desktop', 'com.visualstudio.code.desktop']" 2> /dev/null
 xdg-open https://github.com/FreekBes/improved_intra/releases/latest/download/firefox.xpi 2> /dev/null
+xdg-open https://extensions.gnome.org/extension/3730/floating-dock/ 2> /dev/null
